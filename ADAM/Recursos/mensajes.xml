@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!-- Estado 0 (OK), 1 (Warning), -1 (Failed) -->
+<root>
+    <!-- Mensajes de la BD -->
+    <mensaje id='db0000' descripcion='OK' estado='0'></mensaje> <!-- Resultados obtenidos exitosamente -->
+    <mensaje id='db0001' descripcion='No se encontro el servicio o producto' estado='1'></mensaje> <!-- Id no existente en bd -->
+    <mensaje id='db0002' descripcion='No existe ningun servicio o producto registrado' estado='1'></mensaje> <!-- Tabla de serviciosyproductos vacia -->
+    <mensaje id='db0003' descripcion='Fallo de conexion a la base de datos' estado='-1'></mensaje> <!-- Cuando la conexion a la bd falla -->
+    <mensaje id='db0004' descripcion='Ya existe un producto o servicio con ese nombre' estado='1'></mensaje> <!-- Cuando hay nombre duplicado -->
+    <mensaje id='db0005' descripcion='Servicio o producto almacenado correctamente' estado='0'></mensaje> <!-- Cuando un servicio o producto ha sido almacenado correctamente almacenado-->
+    <mensaje id='db0006' descripcion='Servicio o producto modificado correctamente' estado='0'></mensaje> <!-- Cuando un servicio o procuto ha sido modificado correctamente -->  
+    <mensaje id='db0007' descripcion='Los elementos seleccionados fueron eliminados correctamente' estado='0'></mensaje> <!-- Cuando la operacion no de eliminacion se pudo efectuar-->  
+    <mensaje id='db0008' descripcion='No se pudo eliminar el/los elemento(s) seleccionado' estado='1'></mensaje> <!-- Cuando la operacion no de eliminacion no se pudo efectuar-->    
+</root>

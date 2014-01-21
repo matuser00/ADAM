@@ -1,0 +1,113 @@
+body{}
+header{
+    width: 100%;
+    height: 350px;
+    background: #e0e2e3;
+}
+
+header div.contentNav{
+    width: 100%;
+    height: 200px;
+    background:#e85139;
+    position: relative;
+    top: 110px;
+}
+
+header div.contentNav nav.Navegacion{
+   height: 160px;
+   width: 95%;
+   position: relative;
+   top: -79px;
+    
+}
+header div.contentNav nav.Navegacion ul{
+    width: 90%;
+    height: 155px;
+   
+    position: relative;
+    left: 85px;
+}
+
+header div.contentNav nav.Navegacion ul li{
+    width: 155px;
+    height: 155px;
+    float:left;
+   display: block
+    
+}
+
+.logo{
+    
+    position: relative;
+    left: 690px;
+    top:-20px;
+}
+
+/*---------------------------------------------------------------------------------------header-----------------------------------------------------------*/
+
+
+.banner1{
+    background: red;
+    width: 100%;
+    height: 400px;
+}
+
+.contentMain{
+    min-height:920px;
+    background:#e0e2e3;
+    position: relative;
+    top: 183px;
+    border-radius:4px;
+    margin-bottom: 250px;
+}
+
+/*-----------------------------------------------------------------------------------------footer---------------------------------------------------------------*/
+footer{
+    width: 100%;
+    height: 200px;
+    background: #7bc0e1;
+}
+footer div.contentNavfooter{
+    width: 100%;
+    height: 185px;
+    background:#e85139;
+    position: relative;
+    top: 15px;
+    
+}
+
+footer div.contentNavfooter div.contentTextoFooter{
+    width: 550px;
+    position: relative;
+    left: 85px;
+    top: 60px;
+    font-size: 22px;
+    font-family: helvetica;
+    color: #ffffff;
+}
+
+footer div.contentNavfooter nav{
+    width: 400px;
+    height: 100px;
+    top: -33px;
+    float: right;
+    position: relative;
+    right: 85px;
+    
+}
+
+footer div.contentNavfooter nav ul{
+    width: 390px;
+    height: 100px;
+    position: relative;
+    right: -29px;
+    display: block;
+    
+}
+
+footer div.contentNavfooter nav ul li{
+    float: right;
+    margin-right: 20px;
+    position: relative;
+}
+/*----------------------------------------------------------------------------------------- termina footer---------------------------------------------------------------*/

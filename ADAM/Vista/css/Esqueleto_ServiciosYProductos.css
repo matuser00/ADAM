@@ -1,0 +1,33 @@
+/*Estilos barra de navegacion*/
+@import url("Debug/ServiciosYProductos.css");
+/*Estilos contenido*/
+#Contenido{
+	
+	margin-top:1%;	
+}
+
+
+#ListaYFotos{
+	
+	margin-top:3%;
+	height:60%;	
+	padding-left:1%;
+}
+
+#Lista{
+	/*display:block;*/
+	margin-left:2%;
+	
+	width:30%;	
+	height:100%;
+	float:left;
+}
+
+#Fotos{
+	/*display:block;*/
+	margin-left:2%;
+	
+	width:60%;	
+	height:100%;
+	float:left;
+}

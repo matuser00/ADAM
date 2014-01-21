@@ -1,0 +1,36 @@
+/*Estilos barra de navegacion*/
+#BarraNavegacion{
+	background-color:red;
+	
+}
+.Menu_BarraNavegacion{	
+	
+}
+
+.BarraMenu_BarraNavegacion{
+	
+}
+
+/*Estilos contenido*/
+#Contenido{
+	background-color:blue;
+	
+}
+
+
+#Galeria{
+	background-color:green;
+	
+	
+}
+
+/*Estilos footer*/
+#Footer{
+	
+	background-color:yellow;
+	
+}
+.Contenido_Footer{
+	background-color:#99FF33;	
+	
+}
